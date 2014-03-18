@@ -1,0 +1,13 @@
+Judge_Core调用方法:
+
+-E 可执行文件
+-I 输入文件
+-O 输出文件
+-T 时间限制(毫秒)
+-M 空间限制(kb)
+-R 结果文件
+
+eg.
+Judge_Core.exe -E a.exe -I input.txt -O output.txt -T 1000 -M 32768 -R __result.txt
+
+

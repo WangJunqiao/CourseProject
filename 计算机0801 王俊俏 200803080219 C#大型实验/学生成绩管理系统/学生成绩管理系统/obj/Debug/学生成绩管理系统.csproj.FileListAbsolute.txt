@@ -1,0 +1,14 @@
+C:\Documents and Settings\Administrator\桌面\C#大型实验\学生成绩管理系统\学生成绩管理系统\bin\Debug\学生成绩管理系统.exe
+C:\Documents and Settings\Administrator\桌面\C#大型实验\学生成绩管理系统\学生成绩管理系统\bin\Debug\学生成绩管理系统.pdb
+C:\Documents and Settings\Administrator\桌面\C#大型实验\学生成绩管理系统\学生成绩管理系统\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\C#大型实验\学生成绩管理系统\学生成绩管理系统\obj\Debug\学生成绩管理系统.FormLogin.resources
+C:\Documents and Settings\Administrator\桌面\C#大型实验\学生成绩管理系统\学生成绩管理系统\obj\Debug\学生成绩管理系统.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\C#大型实验\学生成绩管理系统\学生成绩管理系统\obj\Debug\学生成绩管理系统.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\C#大型实验\学生成绩管理系统\学生成绩管理系统\obj\Debug\学生成绩管理系统.exe
+C:\Documents and Settings\Administrator\桌面\C#大型实验\学生成绩管理系统\学生成绩管理系统\obj\Debug\学生成绩管理系统.pdb
+C:\Documents and Settings\Administrator\桌面\C#大型实验\学生成绩管理系统\学生成绩管理系统\bin\Debug\IrisSkin2.dll
+C:\Documents and Settings\Administrator\桌面\C#大型实验\学生成绩管理系统\学生成绩管理系统\obj\Debug\学生成绩管理系统.FormStu.resources
+C:\Documents and Settings\Administrator\桌面\C#大型实验\学生成绩管理系统\学生成绩管理系统\obj\Debug\学生成绩管理系统.FormTea.resources
+C:\Documents and Settings\Administrator\桌面\C#大型实验\学生成绩管理系统\学生成绩管理系统\obj\Debug\学生成绩管理系统.FormAdm.resources
+C:\Documents and Settings\Administrator\桌面\C#大型实验\学生成绩管理系统\学生成绩管理系统\obj\Debug\学生成绩管理系统.FormUpdatePwd.resources
+C:\Documents and Settings\Administrator\桌面\C#大型实验\学生成绩管理系统\学生成绩管理系统\obj\Debug\学生成绩管理系统.csproj.ResolveComReference.cache

@@ -1,0 +1,64 @@
+﻿生成启动时间为 2011/1/17 10:00:23。
+     1>项目“C:\Users\zjut_DD\Documents\Visual Studio 2010\Projects\FileSystem\FileSystem\FileSystem.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\FileSystem.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(123): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\time.inl(112) : 参见“localtime”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(229): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(238): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(432): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(464): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(470): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(530): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(277) : 参见“gets”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(532): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(697): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(701): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(714): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(723): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(735): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(752): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(763): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(779): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(791): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(801): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zjut_dd\documents\visual studio 2010\projects\filesystem\filesystem\main.cpp(810): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zjut_DD\Documents\Visual Studio 2010\Projects\FileSystem\Debug\FileSystem.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\FileSystem.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\zjut_DD\Documents\Visual Studio 2010\Projects\FileSystem\Debug\FileSystem.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zjut_DD\Documents\Visual Studio 2010\Projects\FileSystem\Debug\FileSystem.lib" /MACHINE:X86 Debug\FileSystem.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\FileSystem.exe.embed.manifest" /manifest Debug\FileSystem.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         FileSystem.vcxproj -> C:\Users\zjut_DD\Documents\Visual Studio 2010\Projects\FileSystem\Debug\FileSystem.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\FileSystem.unsuccessfulbuild”。
+         正在对“Debug\FileSystem.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\zjut_DD\Documents\Visual Studio 2010\Projects\FileSystem\FileSystem\FileSystem.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.87

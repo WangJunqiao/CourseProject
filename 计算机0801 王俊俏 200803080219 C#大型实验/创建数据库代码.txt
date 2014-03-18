@@ -1,0 +1,55 @@
+数据库创建
+
+create table Teachers
+(
+	Tno varchar(10) unique not null,
+	Tname varchar(20) not null,
+	Tpwd varchar(20)
+	
+	constraint PK_TEC primary key (Tno)
+)
+
+create table students
+(
+	Sno varchar(10) unique not null,
+	Sname varchar(20) not null,
+	Spwd varchar(20)
+	
+	constraint PK_STU primary key (Sno)
+)
+
+create table Courses
+(
+	Cno varchar(10) unique not null,
+	Cname varchar(20) not null,
+	Tno varchar(10) not null,
+	
+	constraint PK_COU primary key (Cno)
+)
+
+
+
+create table reports
+(
+	Sno varchar(10) not null,
+	Cno varchar(10) not null,
+	Score int
+	
+	constraint PK_REP primary key(Sno,Cno),
+	
+	foreign key (Sno) references students(Sno),
+	foreign key (Cno) references courses(Cno)
+)
+
+//授权
+grant select,insert,delete,update
+on students
+to user1
+with grant option
+
+//创建视图
+create view myView
+as
+select Term,sname,cname,score
+from students,courses,reports
+where students.sno=reports.sno and courses.cno=reports.cno;
