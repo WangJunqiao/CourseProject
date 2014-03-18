@@ -1,0 +1,14 @@
+a{
+	color:#009ACD;
+	text-decoration: none;
+}
+a:hover{
+	color:red;
+}
+.redtext{
+	color:red;
+}
+.splabel{
+	color:blue;
+	font-size: 120%;
+}

@@ -1,0 +1,32 @@
+create table problem(
+  pid int unsigned,
+
+  title varchar(50),
+  timelimit int unsigned,
+  memorylimit int unsigned,
+
+  accept int unsigned,
+  attempt int unsigned,
+
+  description varchar(6000),
+  input varchar(5000),
+  output varchar(5000),
+  sampleinput varchar(2000),
+  sampleoutput varchar(2000),
+
+  hint varchar(500),
+
+  inputfilepath varchar(128),
+  outputfilepath varchar(128),
+
+  author varchar(50),
+
+  constraint pk primary key(pid)
+)
+
+
+
+
+
+create index pidindex on problem (pid asc)
+

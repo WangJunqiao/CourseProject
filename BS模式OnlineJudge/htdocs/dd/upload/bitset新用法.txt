@@ -1,0 +1,51 @@
+#include<iostream>
+#include<queue>
+#include<stack>
+#include<string>
+#include<stdio.h>
+#include<string.h>
+#include<bitset>
+#include<algorithm>
+#include<ctime>
+using namespace std;
+
+
+inline void print(bitset<45> &bit){
+	cout<<bit.to_ullong()<<endl;
+}
+
+
+#define maxn 65536
+int main(){
+	bitset<45> bit1,bit2;
+	bit1.reset(); bit2.reset(); //重置,全部变成0
+	bit1.set(1); print(bit1);   //置第i位为1
+	bit2[2]=1;;  print(bit2);   //置第i位为1
+	print(bit1 & bit2);         //按位与
+	print(bit1 | bit2);         //按位或
+
+	bitset<maxn> ss1,ss2;
+	clock_t t=clock();
+	for(int i=1;i<=65536;i++){
+		ss1|=ss2;
+	}
+	printf("%d ms\n",clock()-t);
+
+	t=clock();
+	int a=2,b=3,T=maxn/32;
+	for(int i=1;i<=65536;i++){
+		for(int j=1;j<=T;j++){
+			a|=b;
+		}
+	}
+	printf("%d ms\n",clock()-t);
+
+	t=clock();
+	long long aa=2,bb=3,TT=maxn/64;
+	for(int i=1;i<=65536;i++){
+		for(int j=1;j<=TT;j++){
+			aa|=bb;
+		}
+	}
+	printf("%d ms\n",clock()-t);
+}
