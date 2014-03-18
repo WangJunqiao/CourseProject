@@ -1,0 +1,79 @@
+create table UserInfo
+(
+	userID varchar(16) not null unique,
+	password varchar(16) not null,
+	qqNumber varchar(12),
+	solved int,
+	rating int
+);
+
+
+INSERT
+INTO UserInfo
+VALUES
+	('Admin','888888','12345678',0,0),
+	('zjut_DD','999999','774367334',0,0);
+
+
+grant select,update,insert,delete on userinfo to  OJadmin
+
+//*************************************************************************************
+create table ProblemSet
+(
+	probID int not null unique,
+	probName varchar(32) not null,
+	probFileAddr varchar(128) not null,
+	inputFileAddr varchar(128) not null,
+	outputFileAddr varchar(128) not null,
+	runTimeLimit int,
+	runMemoryLimit int,
+	totalTry int,
+	totalSolved int
+);
+INSERT
+INTO ProblemSet
+VALUES
+	(1001,'a+b problem','E:\OnlineJudge\problem_set\1001\description.txt','E:\OnlineJudge\problem_set\1001\in.txt','E:\OnlineJudge\problem_set\1001\out.txt',1000,32000,0,0)
+	(1002,'a*b problem','E:\OnlineJudge\problem_set\1002\description.txt','E:\OnlineJudge\problem_set\1002\in.txt','E:\OnlineJudge\problem_set\1002\out.txt',1000,32000,0,0)
+
+grant select,update,insert,delete on ProblemSet to  OJadmin
+
+//*************************************************************************************
+create table RunStatus
+(
+	runID int not null unique,
+	userID varchar(16) not null,
+	probID int not null,
+	result varchar(20) not null,
+	runMemory int,
+	runTime int,
+	codeAddr varchar(128),
+	submitTime varchar(20)
+);
+
+grant select,update,insert,delete on RunStatus to  OJadmin
+//*************************************************************************************
+query.exec("insert into userinfo(UserID,Pwd,QQnumber) values('ACRush','123456','10000') ");
+query.exec("update userinfo set QQnumber='54321' where UserID='Admin' ");
+
+
+
+
+
+
+
+update UserInfo 
+set rating=2500 where userID='zjut_DD'
+update UserInfo 
+set rating=2100 where userID='ACRush'
+update UserInfo 
+set rating=1700 where userID='TripleTower'
+update UserInfo 
+set rating=1400 where userID='PikaPika'
+update UserInfo 
+set rating=1100 where userID='Egor'
+update UserInfo 
+set rating=700 where userID='whoAmI'
+update UserInfo 
+set rating=400 where userID='impossible'
+

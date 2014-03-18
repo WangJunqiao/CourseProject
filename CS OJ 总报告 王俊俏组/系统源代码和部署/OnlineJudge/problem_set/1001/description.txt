@@ -1,0 +1,24 @@
+                        a+b problem
+
+description
+give you 2 integer a and b , can you calculate the sum of a and b.
+
+input
+several test case. every case contain 2 integer.
+
+output
+the sum of a and b
+
+sample input
+3 4
+5 6
+
+sample output
+7
+11
+
+author 
+zjut_DD
+
+hint
+no~

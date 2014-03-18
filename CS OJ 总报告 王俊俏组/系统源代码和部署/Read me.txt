@@ -1,0 +1,4 @@
+Client和Server是两个Qt 4工程的源代码包,client是用户端的工程,Server是服务器端地工程.
+OnlineJudge需要放在E:\下,里面用来存放服务器接受到的代码. 判题的中间数据也在这个里面.
+OnlineJudgeDB.mdf 和 OnlineJudgeDB_log.ldf两个文件是SQL server2008的数据库文件,需要有用户名:OJadmin 密码:123的登录名
+

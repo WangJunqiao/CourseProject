@@ -1,0 +1,14 @@
+在使用系统前,请做好以下几点:
+
+1,请将本目录onlinejudge放在E盘根目录下.
+
+2,配置好g++编译环境(环境变量加入g++的路径).
+
+3,使用SQL Server 2008数据库. 用户名OJadmin 密码123
+
+4,configure.txt为配置文件.第一行是judge_home, 默认为当前目录即"." 第二行是judgeRunID
+
+5,搞好后,双击server.exe启动服务端进程. 然后运行client.exe(在client可运行包里面)
+
+6,关闭windows防火墙,以便其他人连接到你的电脑.
+
